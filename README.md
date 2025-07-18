@@ -1,13 +1,17 @@
-Below is a comprehensive `README.md` file for the full `JobConnector` project, which includes subfolders `backend` and `mobileapp`. This README provides an overview of the entire project, details each subfolder’s purpose, and includes setup, running, and build instructions tailored to your current minimal `mobileapp` setup (Home page only) while anticipating the full feature set (authentication, profiles, dashboards) for all components. It’s designed for uploading to GitHub as the root README for the `O:\JobConnector` directory.
+Below is a comprehensive `README.md` file for the full `JobConnect` project, which includes subfolders `backend` and `mobileapp`. This README provides an overview of the entire project, details each subfolder’s purpose, and includes setup, running, and build instructions tailored to your current minimal `mobileapp` setup (Home page only) while anticipating the full feature set (authentication, profiles, dashboards) for all components. It’s designed for uploading to GitHub as the root README for the `O:\JobConnect` directory.
 
 ---
 
 ### README.md
 
 ```markdown
-# JobConnector
+# JobConnect
 
-JobConnector is a full-stack job platform designed to connect job seekers and providers. It comprises three main components: a backend API, a web frontend, and a mobile app. This repository contains all subprojects, providing a cohesive solution for job management across different platforms.
+JobConnect is an online platform that helps Job Seekers, Job Providers, and Admins 
+connect easily. It allows job seekers to find and apply for jobs, and job providers to post job 
+openings and find suitable candidates. 
+A special feature of JobConnect is that it connects seekers and providers through WhatsApp, 
+so they can talk directly. This makes the job application and hiring process faster and easier
 
 ## Project Overview
 
@@ -21,7 +25,7 @@ JobConnector is a full-stack job platform designed to connect job seekers and pr
 ## Directory Structure
 
 ```
-JobConnector/
+JobConnect/
 ├── backend/             # Node.js backend API
 │   ├── (to be added)    # API files (e.g., server.js)
 │   └── README.md        # Backend-specific instructions
@@ -52,8 +56,8 @@ JobConnector/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/jobconnector.git
-cd jobconnector
+git clone https://github.com/your-username/JobConnect.git
+cd JobConnect
 ```
 
 ### Step 2: Setup Each Subfolder
@@ -107,7 +111,7 @@ cd jobconnector
    npx expo start --clear
    ```
 2. Scan the QR code with Expo Go on your Android device.
-3. Expected output: "JobConnector Mobile" displayed on screen.
+3. Expected output: "JobConnect Mobile" displayed on screen.
 
 ### Production Mode (Local Test)
 ```bash
@@ -124,7 +128,7 @@ cd mobileapp
 eas login
 eas project:init
 ```
-- Use slug `jobconnector` and update `app.json` with the generated `projectId` if needed:
+- Use slug `JobConnect` and update `app.json` with the generated `projectId` if needed:
   ```json
   "extra": {
     "eas": {
@@ -147,7 +151,7 @@ eas build --platform android --profile preview
    adb install path/to/your/apk.apk
    ```
 2. Open the app on your Android device.
-3. Expected output: "JobConnector Mobile" displayed.
+3. Expected output: "JobConnect Mobile" displayed.
 4. Debug if needed:
    ```bash
    adb logcat *:E
@@ -171,7 +175,7 @@ eas build --platform android --profile preview
   export default function App() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#fff' }}>
-        <Text style={{ color: '#000', fontSize: 20 }}>Hello, JobConnector!</Text>
+        <Text style={{ color: '#000', fontSize: 20 }}>Hello, JobConnect!</Text>
       </View>
     );
   }
@@ -206,29 +210,29 @@ For issues or questions, open an issue on GitHub or contact [your-email@example.
 ### Steps to Add to GitHub
 
 1. **Create `README.md` in Root**:
-   - In `O:\JobConnector`, create `README.md`.
+   - In `O:\JobConnect`, create `README.md`.
    - Copy and paste the above content.
    - Save the file.
 
 2. **Initialize Git Repository**:
    ```cmd
-   cd O:\JobConnector
+   cd O:\JobConnect
    git init
    git add .
    git commit -m "Initial commit with full project structure and minimal mobileapp"
    ```
 
 3. **Push to GitHub**:
-   - Create a new repository on GitHub (e.g., `jobconnector`).
+   - Create a new repository on GitHub (e.g., `JobConnect`).
    - Link and push:
      ```cmd
-     git remote add origin https://github.com/your-username/jobconnector.git
+     git remote add origin https://github.com/your-username/JobConnect.git
      git branch -M main
      git push -u origin main
      ```
 
 4. **Verify**:
-   - Visit `https://github.com/your-username/jobconnector` and confirm `README.md` is displayed.
+   - Visit `https://github.com/your-username/JobConnect` and confirm `README.md` is displayed.
 
 ---
 
