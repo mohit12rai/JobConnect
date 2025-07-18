@@ -1,4 +1,4 @@
-Below is a comprehensive `README.md` file for the full `JobConnector` project, which includes subfolders `backend`, `frontend`, and `mobileapp`. This README provides an overview of the entire project, details each subfolder’s purpose, and includes setup, running, and build instructions tailored to your current minimal `mobileapp` setup (Home page only) while anticipating the full feature set (authentication, profiles, dashboards) for all components. It’s designed for uploading to GitHub as the root README for the `O:\JobConnector` directory.
+Below is a comprehensive `README.md` file for the full `JobConnector` project, which includes subfolders `backend` and `mobileapp`. This README provides an overview of the entire project, details each subfolder’s purpose, and includes setup, running, and build instructions tailored to your current minimal `mobileapp` setup (Home page only) while anticipating the full feature set (authentication, profiles, dashboards) for all components. It’s designed for uploading to GitHub as the root README for the `O:\JobConnector` directory.
 
 ---
 
