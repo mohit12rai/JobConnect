@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "JobConnectQA",
+    "slug": "JobConnectQA",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/jc.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/jc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.opticosolution.mobileappqaay",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.MEDIA_LIBRARY"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/jc.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "b2ef1286-8066-4fd7-98ae-193acb53b603"
+      }
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
